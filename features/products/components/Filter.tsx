@@ -34,7 +34,7 @@ export default function Filters({ onChange }: FiltersProps) {
           setCategory(e.target.value);
           handleChange();
         }}
-        className="border p-2 rounded bg-black text-white"
+        className="border p-2 rounded  "
       >
         <option value="">All Categories</option>
         <option value="smartphones">Smartphones</option>

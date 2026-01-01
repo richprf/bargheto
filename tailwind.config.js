@@ -8,6 +8,8 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
     "./node_modules/@heroui/**/*.{js,ts,jsx,tsx}",
+    "./features/**/*.{js,ts,jsx,tsx,mdx}",
+
   ],
   theme: {
     extend: {

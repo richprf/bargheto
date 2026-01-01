@@ -28,9 +28,9 @@ export default function ProductsList() {
     <div>
       <Filters onChange={(f) => setFilters({ ...filters, search: f.search, category: f.category, page: 1 })} />
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-black">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
         {products.map((product) => (
-          <div key={product.id} className="border p-4 rounded shadow relative h-56">
+          <div key={product.id} className="border p-4 rounded shadow relative h-56 ">
             <Image src={product.images[0]} alt={product.title} fill className="object-contain" />
             <h2 className="font-bold mt-2">{product.title}</h2>
             <p className="text-sm text-gray-600">${product.price}</p>
